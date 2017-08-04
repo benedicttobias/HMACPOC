@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMACPOC", "HMACPOC\HMACPOC.csproj", "{0B1475E4-B4A1-413B-9CB9-B2F48C8A4EA2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHMACAuthentication", "WebApiHMACAuthentication\WebApiHMACAuthentication.csproj", "{202167D6-9F25-4B75-AC29-F4EF23C0F586}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMACAuthentication.WebApi", "HMACAuthentication.WebApi\HMACAuthentication.WebApi.csproj", "{E2FB7B10-0F3C-4865-B581-2DFED17694B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myAPI", "myAPI\myAPI.csproj", "{0795AD4E-C270-4AC2-A5DB-709F7F271EA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B1475E4-B4A1-413B-9CB9-B2F48C8A4EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B1475E4-B4A1-413B-9CB9-B2F48C8A4EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B1475E4-B4A1-413B-9CB9-B2F48C8A4EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B1475E4-B4A1-413B-9CB9-B2F48C8A4EA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{202167D6-9F25-4B75-AC29-F4EF23C0F586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{202167D6-9F25-4B75-AC29-F4EF23C0F586}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{202167D6-9F25-4B75-AC29-F4EF23C0F586}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{202167D6-9F25-4B75-AC29-F4EF23C0F586}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2FB7B10-0F3C-4865-B581-2DFED17694B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2FB7B10-0F3C-4865-B581-2DFED17694B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2FB7B10-0F3C-4865-B581-2DFED17694B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2FB7B10-0F3C-4865-B581-2DFED17694B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0795AD4E-C270-4AC2-A5DB-709F7F271EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795AD4E-C270-4AC2-A5DB-709F7F271EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795AD4E-C270-4AC2-A5DB-709F7F271EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795AD4E-C270-4AC2-A5DB-709F7F271EA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
