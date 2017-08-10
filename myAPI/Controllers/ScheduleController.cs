@@ -225,6 +225,7 @@ namespace myAPI.Controllers
 			new Schedule { primary_description = "Server-Side Web Programming", secondary_description = "CS 368", tertiary_description = "Lecture", start_datetime = "05/05/2017 14:00:00", end_datetime = "05/05/2017 14:50:00", lecturer_name = "Dr. John Sparks", lecturer_email = "jSparks@faculty.pcci.edu", location_name = "AC 211"},
 					};
 
+		[Route("v1/schedule")]
 		[AcceptVerbs("GET")]
 		public IHttpActionResult schedule() {
 			if (scheduleMocking == null) {
@@ -232,5 +233,11 @@ namespace myAPI.Controllers
 			}
 			return Ok(scheduleMocking);
 		}
+		
+		[Route("v1/returnVoid")]
+		[AcceptVerbs("GET")]
+		public void returnVoid() {
+		}
+
 	}
 }

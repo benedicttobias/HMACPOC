@@ -20,7 +20,7 @@ namespace myAPI
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            config.Routes.MapHttpRoute(
+			config.Routes.MapHttpRoute(
                 name: "v1",
                 routeTemplate: "v1/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
